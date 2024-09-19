@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> “Lista 1 - Questão 3”</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Qual é a diferença entre as linguagens de programação</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Server Side</a></li>
+                <li><a href="#">Client Side</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Server Side</h2>
+            <p>O código é executado no servidor, antes de enviar a resposta ao cliente.Processar solicitações, acessar bancos de dados, autenticação de usuários, e gerar HTML dinâmico.Mais seguro, pois o código não é exposto ao usuário final e apenas os resultados são enviados.Dependente da capacidade do servidor e da largura de banda da rede e pode ser mais lento se muitas solicitações forem feitas.</p>
+            <h2>Tipos: PHP, Ruby, Python, Node.js</h2>
+        </section>
+        <section>
+            <h2>Client Side</h2>
+            <p>O código é executado no navegador do usuário, após o recebimento da resposta do servidor.Menos seguro, pois o código é visível e acessível a qualquer pessoa que inspecione a página e geralmente mais rápido, pois as interações são realizadas localmente, sem necessidade de comunicação constante com o servidor.</p>
+            <h2>Tipos: HTML, CSS, JavaScript</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pedro Henrique da Silva Gomes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
