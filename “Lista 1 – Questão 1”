@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Lista 1 – Questão 1”</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>País que desejo conhecer</h1>
+    </header>
+    <article>
+        <h2>Sobre Mim</h2>
+        <p>Um país que sempre que sempre eu quis conhcer é o Japão. Uma ótima cultura,tem as melhores tecnologias e mais avançadas. A culinária, como o sushi é um dos meus pratos preferidos. Além disso, há uma curiosidade no Japão que o sistema educacional é considerado um dos melhores do mundo. Conhecer cidades como Tóquio e Kyoto, com seus templos e inovações, é um sonho que gostaria de realizar.</p>
+    </article>
+    <footer>
+    </footer>
+</body>
+</html>
+
