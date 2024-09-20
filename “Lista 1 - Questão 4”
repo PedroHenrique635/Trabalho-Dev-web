@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 1 - Questão 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        code {
+            background-color: #ecf0f1;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Semântica em HTML5</h1>
+    </header>
+
+    <main>
+        <h2>O que é semântica?</h2>
+        <p>
+            A <strong>semântica</strong> em HTML5 refere-se ao uso de elementos que descrevem claramente o conteúdo da página. Isso não só melhora a acessibilidade, mas também ajuda os motores de busca a entenderem melhor a estrutura do site.
+        </p>
+        <p>
+            Utilizar elementos semânticos, como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, e <code>&lt;footer&gt;</code>, resulta em um código mais organizado e legível. Esses elementos proporcionam contexto e significado ao conteúdo.
+        </p>
+        <p>
+            Adotar boas práticas de semântica deve ser uma prioridade para desenvolvedores, pois isso facilita a manutenção do código e melhora a experiência do usuário.
+        </p>
+    </main>
+</body>
+</html>
